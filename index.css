@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("bg-pattern-desktop.svg");
+  font-size: 16px;
+}
+.section1 {
+  height: 10vh;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* .section2 {
+} */
+.section3 {
+  height: 60vh;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.we-re,
+.co-so {
+  font-size: 2rem;
+  letter-spacing: 6px;
+}
+.para {
+  margin-top: 18px;
+}
+.e-mail {
+  margin-top: 25px;
+}
+.image2 {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+}
