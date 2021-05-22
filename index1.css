@@ -10,6 +10,12 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .section1 {
   height: 10vh;
   width: 100%;
@@ -35,7 +41,6 @@ body {
   height: 60vh;
   width: 100%;
   margin-top: 30px;
-  margin-bottom: 30px;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
